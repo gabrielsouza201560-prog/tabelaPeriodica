@@ -1,19 +1,197 @@
-*{font-family: Arial;}
-.border{border-style: solid;
-text-align: center;}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-table{width: 90%;
-height: 100vh;
-margin: auto;}
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 13px;
+}
 
-td{ width: 5%;
-height: 8vh;}
-div{ text-align: left; margin: 1vh;}
+#titulo {
+    text-align: center;
+    width: 100%;
+    font-size: 64px;
+    font-weight: bold;
+    color: rgb(199, 199, 199);
+}
 
-.gasnobre{background-color: lightcoral;}
-.alcalino{background-color: lightseagreen;}
-.semi{background-color: lightgoldenrodyellow;}
-.ametal{background-color: lightslategray;}
-.terroso{background-color: lightsalmon;}
-.metal{background-color: lightskyblue;}
-.trans{background-color: lightgrey;}
+
+#LantanideosTd {
+    border: 1px dashed;
+    border-color: #0d669d;
+}
+
+#LantanideosT {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    color: #0d669d;
+}
+
+#actinideosTd {
+    border: 1px dashed;
+    border-color: #906047;
+}
+
+#actinideosT {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    color: #906047;
+}
+
+.border {
+    border-style: solid;
+    text-align: center;
+}
+
+table {
+    width: auto;
+    margin: auto;
+
+}
+
+
+.border:hover {
+    transform: scale(1.18);
+    border-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 18px rgba(255, 255, 255, .5);
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    font-size: 10px;
+    padding: 2px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+}
+
+div {
+    text-align: left;
+    margin: 5px;
+}
+
+.hidrog {
+    background: linear-gradient(135deg, #3e5f96, #2A4165)
+}
+
+.alcalino {
+    background: linear-gradient(135deg, #3e7886, #244D57)
+}
+
+.alcalinol {
+    background-color: #3e7886 ;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+
+.terroso {
+    background: linear-gradient(135deg, #8d4655, #622E39)
+}
+
+.terrosol {
+    background-color: #8d4655 ;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+
+.trans {
+    background: linear-gradient(135deg, #62598b, #433C65)
+}
+
+.transl {
+    background-color: #62598b ;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+
+.metal {
+    background: linear-gradient(135deg, #4c7970, #2F4D47)
+}
+
+.metall {
+    background-color: #4c7970 ;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+
+.semi {
+    background: linear-gradient(135deg, #846632, #523E1B)
+}
+
+.semil {
+    background-color: #846632 ;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+
+.ametal {
+    background: linear-gradient(135deg, #4b6a9d, #2A4165)
+}
+
+.ametall {
+    background-color: #4b6a9d ;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+
+.gasnobre {
+    background: linear-gradient(135deg, #905764, #623842)
+}
+
+.gasnobrel {
+    background-color: #905764 ;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+
+.Lantanideos {
+    background: linear-gradient(135deg, #0d669d, #004A77)
+}
+
+.Lantanideosl {
+    background-color: #0d669d ;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+
+.fonte9px {
+font-size: 9px;
+}
+
+.Actinideos {
+    background: linear-gradient(135deg, #906047, #613B28)
+}
+
+.Actinideosl {
+    background-color: #906047 ;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 16px;
+    min-width: 1400px;
+}
